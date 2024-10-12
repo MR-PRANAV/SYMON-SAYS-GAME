@@ -13,6 +13,14 @@ document.addEventListener("keypress",  function(){
     }
 })
 
+document.addEventListener("touchstart",  function(){
+    if( started == false){
+        console.log("game started");
+        started = true;
+        levelup()
+    }
+})
+
 function gameflash(btn){
     // console.log("button flashed" , btn) // marked
     btn.classList.add("flash");
