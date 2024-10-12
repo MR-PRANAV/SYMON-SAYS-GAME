@@ -13,17 +13,34 @@ body{
 .main{
     height: 500px;
     width: 99.8%;
-    border: 2px solid rgba(0, 255, 42, 0);
+    border: 2px solid rgba(0, 255, 42, 0.648);
     display: flex;
     justify-content: center;
 }
 .main-inner{
     height: 100%;
     width: 500px;
-    border: 1px solid rgba(255, 0, 0, 0);
+    border: 1px solid rgba(255, 0, 0, 0.704);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+
+
+
+
+
+@media (max-width:584px) {
+    .main-inner{
+        width: 300px;
+    }
+    .main-inner .btn{
+        height: 70px;
+        width: 70px;
+        margin: 20px;
+    }
+
 }
 
 
