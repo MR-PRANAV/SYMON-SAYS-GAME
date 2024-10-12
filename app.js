@@ -5,15 +5,9 @@ let started = false;
 let level = 0;
 let h2 = document.querySelector("h2");
 
-document.addEventListener("keypress",  function(){
-    if( started == false){
-        console.log("game started");
-        started = true;
-        levelup()
-    }
-})
+let start_button = document.querySelector(".start-button");
 
-document.addEventListener("touchstart",  function(){
+start_button.addEventListener("click",  function(){
     if( started == false){
         console.log("game started");
         started = true;

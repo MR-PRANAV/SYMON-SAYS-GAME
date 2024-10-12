@@ -25,9 +25,26 @@ body{
     justify-content: space-between;
     flex-wrap: wrap;
 
-    
+
 }
 
+/* From Uiverse.io by Mhyar-nsi */ 
+button {
+  background-color: #8db7ff;
+  color: #3b82f6;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  width: 100px;
+  height: 45px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #3b82f6;
+  box-shadow: 0 0 0 5px #3b83f65f;
+  color: #fff;
+}
 
 
 
