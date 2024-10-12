@@ -29,7 +29,7 @@ body{
 }
 
 /* From Uiverse.io by Mhyar-nsi */ 
-button {
+.start-button {
   background-color: #8db7ff;
   color: #3b82f6;
   border: none;
@@ -40,7 +40,7 @@ button {
   transition: 0.3s;
 }
 
-button:hover {
+.start-button:hover {
   background-color: #3b82f6;
   box-shadow: 0 0 0 5px #3b83f65f;
   color: #fff;
@@ -66,6 +66,7 @@ button:hover {
 .main-inner button{
     height: 150px ;
     width: 150px;
+    color: #ffffff00;
     border:  5px solid rgb(0, 0, 0);
     border-radius: 20px ;
     margin: 50px;

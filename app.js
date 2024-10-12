@@ -63,7 +63,7 @@ function checkAns(idx){
 
         
         h2.innerHTML = `Game Over! <b>Your Score Was ${level}</b> 
-                        <br> Press Any Key To Start. `; 
+                        <br>  `; 
         console.clear();  
         resetgame();
     }
